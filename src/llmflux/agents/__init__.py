@@ -20,6 +20,7 @@ from .registry import (
     ToolNotFoundError,
     ToolArgumentError,
 )
+from .tools import build_default_registry, convert_file, web_browse
 
 __all__ = [
     "Tool",
@@ -27,4 +28,7 @@ __all__ = [
     "ToolError",
     "ToolNotFoundError",
     "ToolArgumentError",
+    "build_default_registry",
+    "convert_file",
+    "web_browse",
 ]
